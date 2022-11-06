@@ -15,7 +15,8 @@ import cohere
 import emoji
 import streamlit as st
 
-from app import ui, utils
+import ui
+import utils
 from conversant.prompt_chatbot import PromptChatbot
 from conversant.utils import demo_utils
 
